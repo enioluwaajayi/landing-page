@@ -1,0 +1,102 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color:#262626;
+    color: #ffffff;
+}
+
+button {
+    background-color: #DA7646;
+    border-radius: 44px;
+    border: 0px;
+}
+
+footer {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    color: #DA7646;
+    font-weight: 100;
+}
+
+/* class styles */
+
+.btn {
+    background-color: #DA7646;
+    width: 200px;
+    margin-top: 25px;
+    border-radius: 44px;
+    box-shadow: -9px 4px 22px #000000;
+}
+
+/* .left {
+    margin-top: 50px;
+} */
+
+.summary h2{
+    font-size: 56px;
+}
+
+.navbar {
+    margin-top: 30px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #DA7646;
+}
+
+.nav-link {
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.nav-item a:hover {
+    color: #b65a30;
+    font-weight: 500;
+}
+
+.social i {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    /* margin-left: 20px; */
+}
+
+.social p {
+    margin-top: 30px;
+    margin-left: -8px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    color: #DA7646;
+}
+
+.summary p{
+    font-weight: 100;
+    color: #cbcaca;
+}
+
+/* id selectors */
+
+#btn{
+    font-weight: 500;
+}
+
+#btn:hover {
+    color: #262626;
+    font-weight: 700;
+}
+
+#divider {
+    font-weight: 100;
+    letter-spacing: 10px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    color: #DA7646;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
