@@ -38,14 +38,18 @@ footer p {
     font-size: 56px;
 }
 
-.navbar {
-    margin-top: 30px;
+nav {
+    padding-top: 30px;
 }
 
 .navbar-brand {
     font-size: 40px;
     font-weight: bolder;
     color: #DA7646;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
 }
 
 .nav-link {
@@ -56,6 +60,23 @@ footer p {
 .nav-item a:hover {
     color: #b65a30;
     font-weight: 500;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(218,118,70)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler {
+  float: right;
+  margin-top: 10px;
+  margin-left: 100px;
 }
 
 .social i {
